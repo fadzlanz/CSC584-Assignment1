@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+##Project Overview
 This project is a simple **Personal Profile Web Application** developed using **HTML, CSS, Java Servlet, and JSP**.  
 It demonstrates the basic interaction between:
 
@@ -16,9 +16,9 @@ This project fulfills the requirements of Assignment 1 for CSC584.
 
 ---
 
-## 🎯 Features
+## Features
 
-### ✔ HTML Form (index.html)
+HTML Form (index.html)
 - Collects:
   - Student Name  
   - Student ID  
@@ -34,7 +34,7 @@ This project fulfills the requirements of Assignment 1 for CSC584.
 
 ---
 
-## ✔ Servlet (PersonalProfileServlet.java)
+Servlet (PersonalProfileServlet.java)
 - Receives form data via POST  
 - Extracts form values using `request.getParameter()`  
 - Saves values into attributes via `request.setAttribute()`  
@@ -47,7 +47,7 @@ rd.forward(request, response);
 
 ---
 
-## ✔ JSP Page (profile.jsp)
+JSP Page (profile.jsp)
 - Displays submitted student profile neatly  
 - Shows all captured data:
   - Name  
@@ -68,7 +68,7 @@ ${email}
 
 ---
 
-## 🧩 System Architecture Flow
+System Architecture Flow
 
 ```
 index.html  →  PersonalProfileServlet.java  →  profile.jsp
@@ -79,7 +79,7 @@ This shows the complete flow of:
 
 ---
 
-## 🚀 How to Run This Project
+How to Run This Project
 
 1. Open **NetBeans** with **GlassFish Server** installed  
 2. Import this project folder  
@@ -88,32 +88,13 @@ This shows the complete flow of:
 5. Browser will load: `index.html`  
 6. Fill in the form and click **Submit Profile**  
 7. JSP page (`profile.jsp`) will display all submitted information  
-
 ---
 
-## 📝 Assignment Requirements Checklist
-
-| Requirement | Completed |
-|------------|-----------|
-| Collect user profile data via HTML form | ✅ |
-| POST form to Servlet | ✅ |
-| Process form data in Servlet | ✅ |
-| Forward data to JSP | ✅ |
-| Display data neatly in JSP | ✅ |
-| Use CSS for creativity & presentation | ✅ |
-| Use field validation (JavaScript) | ✅ |
-| All fields have placeholders & mandatory marks | ✅ |
-
-All requirements have been fully met.
-
----
-
-## 📜 Notes
+Notes
 This project was developed for **Assignment 1 (CSC584 Enterprise Programming)**  
 as a demonstration of Servlets, JSP, and simple web form processing.
 
 ---
-
-## 🪪 License
+License
 This project is created for academic and learning purposes only.
 
